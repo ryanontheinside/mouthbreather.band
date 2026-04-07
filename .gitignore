@@ -1,0 +1,8 @@
+.vercel
+.DS_Store
+Thumbs.db
+node_modules
+*.log
+
+# raw source video — only ship the optimized mp4
+media/MB REEL v1.mov
