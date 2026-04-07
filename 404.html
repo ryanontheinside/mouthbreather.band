@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#070707">
+<title>NO SIGNAL — MOUTHBREATHER</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=VT323&family=Inter:wght@400;600&display=swap">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .nosig{
+    min-height:100dvh;
+    display:flex;flex-direction:column;
+    align-items:center;justify-content:center;
+    text-align:center;
+    padding:40px 20px;
+  }
+  .nosig-bars{
+    display:flex;width:min(520px,90vw);height:130px;
+    margin-bottom:30px;border:1px solid #2a2a2a;
+  }
+  .nosig-bars span{flex:1}
+  .nosig-bars span:nth-child(1){background:#c0c0c0}
+  .nosig-bars span:nth-child(2){background:#c0c000}
+  .nosig-bars span:nth-child(3){background:#00c0c0}
+  .nosig-bars span:nth-child(4){background:#00c000}
+  .nosig-bars span:nth-child(5){background:#c000c0}
+  .nosig-bars span:nth-child(6){background:#c00000}
+  .nosig-bars span:nth-child(7){background:#0000c0}
+  .nosig-code{
+    font-family:var(--font-mono);
+    font-size:18px;letter-spacing:.32em;
+    color:var(--blood);text-transform:uppercase;
+    margin-bottom:10px;
+  }
+  .nosig-title{
+    font-family:var(--font-display);
+    font-size:clamp(48px,10vw,120px);
+    color:var(--bone);
+    line-height:.9;
+    text-transform:uppercase;
+    text-shadow:2px 0 0 rgba(255,17,17,.85), -2px 0 0 rgba(0,200,255,.7);
+    margin-bottom:18px;
+  }
+  .nosig-msg{
+    font-family:var(--font-mono);
+    font-size:16px;letter-spacing:.18em;
+    color:var(--ink-dim);text-transform:uppercase;
+    margin-bottom:30px;
+  }
+</style>
+</head>
+<body>
+
+<div class="fx grain"  aria-hidden="true"></div>
+<div class="fx scan"   aria-hidden="true"></div>
+<div class="fx track"  aria-hidden="true"></div>
+<div class="fx vign"   aria-hidden="true"></div>
+
+<header class="chrome">
+  <span class="chrome-cell"><span class="rec"></span> REC</span>
+  <span class="chrome-cell">SP &nbsp; --:--:--:--</span>
+  <span class="chrome-cell tr">CH 99 &nbsp; NO SIGNAL</span>
+</header>
+
+<main class="nosig">
+  <div class="nosig-bars" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+  <p class="nosig-code">ERR 404 // TAPE NOT FOUND</p>
+  <h1 class="nosig-title">NO SIGNAL</h1>
+  <p class="nosig-msg">— please check your tracking —</p>
+  <a class="cta" href="/">REWIND TO START</a>
+</main>
+
+</body>
+</html>
