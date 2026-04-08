@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://mouthbreather.band/</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://mouthbreather.band/assets/og.jpg</image:loc>
+      <image:title>MOUTHBREATHER — Massachusetts Gadget Metal</image:title>
+      <image:caption>Boston experimental hardcore band MouthBreather</image:caption>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://mouthbreather.band/media/poster.jpg</video:thumbnail_loc>
+      <video:title>MouthBreather — Reel</video:title>
+      <video:description>Live reel from MouthBreather, Massachusetts gadget metal band from Boston, MA.</video:description>
+      <video:content_loc>https://mouthbreather.band/media/reel.mp4</video:content_loc>
+      <video:duration>13</video:duration>
+      <video:family_friendly>no</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+</urlset>

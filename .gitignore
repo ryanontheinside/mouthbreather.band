@@ -6,3 +6,5 @@ node_modules
 
 # raw source video — only ship the optimized mp4
 media/MB REEL v1.mov
+
+.vercel
