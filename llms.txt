@@ -1,6 +1,6 @@
 # MOUTHBREATHER
 
-> Boston, Massachusetts experimental hardcore / mathcore / grindcore band, formed December 2016. Self-described "Massachusetts Gadget Metal" — fuses metallic hardcore, mathcore, post-hardcore, and grindcore. Signed to Good Fight Music. New single "Repeat After Me" out now on Spotify.
+> Boston, Massachusetts experimental hardcore / mathcore / grindcore band, formed December 2016. Self-described "Massachusetts Gadget Metal" — fuses metallic hardcore, mathcore, post-hardcore, and grindcore. The five-track EP "If I Lose Everything, You All Lose Everything" was released independently on August 7, 2026.
 
 ## Members
 
@@ -9,12 +9,15 @@
 - Derek Lamoreaux — bass
 - Nick Cates — drums
 
-## New Single
+## Current Release
 
-- [Repeat After Me — Spotify](https://open.spotify.com/track/3xY8VC1xEkw9ttyfKZeK0L): new single from MouthBreather, out now.
+- **If I Lose Everything, You All Lose Everything** (EP, August 7, 2026, MouthBreather) — five tracks, 10 minutes 10 seconds. [Bandcamp](https://mouthbreathercult.bandcamp.com/album/if-i-lose-everything-you-all-lose-everything) · [Spotify](https://open.spotify.com/album/6bitDe06o4zXQv2byD5OeU) · [Apple Music](https://music.apple.com/us/album/if-i-lose-everything-you-all-lose-everything-ep/6794378936)
+- Track list: "Terrified" (2:37), "Gold Star For You" (1:57), "Repeat After Me" (2:09), "You Look Down On Me" (2:03), "Annie" (1:25).
+- [Terrified — Spotify](https://open.spotify.com/track/3XLHS1TxlTSVNheA7u7WL4): release-day focus track, selected for Spotify's **All New Metal** editorial playlist.
 
 ## Discography
 
+- **If I Lose Everything, You All Lose Everything** (EP, August 2026, independent)
 - **Self-Tape** (LP, November 2023, Good Fight Music) — concept album where every track is influenced by a different movie. Engineered as a single coherent statement on metallic hardcore. [Listen on Bandcamp](https://mouthbreathercult.bandcamp.com/album/self-tape) · [Vinyl on Deathwish](https://deathwishinc.com/products/mouthbreather-self-tape)
 - **I'm Sorry Mr. Salesman** (EP, 2021) — heavy amalgamation of hardcore, mathcore, and grindcore.
 - **Dollmeat** (EP, 2018) — features the music video for "Feeding Time."
@@ -24,7 +27,7 @@
 
 - [Spotify](https://open.spotify.com/artist/7m6SeA1czZq8q7tkzRa20m): primary streaming presence
 - [Apple Music](https://music.apple.com/us/artist/mouthbreather/1336077199)
-- [Bandcamp](https://mouthbreathercult.bandcamp.com/): full catalog with high-quality downloads
+- [Bandcamp](https://mouthbreathercult.bandcamp.com/album/if-i-lose-everything-you-all-lose-everything): current EP and catalog with high-quality downloads
 - [YouTube — @MouthBreatherCult](https://www.youtube.com/@MouthBreatherCult): music videos and visualizers
 
 ## Follow
@@ -45,7 +48,7 @@
 - Influences cited by the band include Deftones, Primus, Tool, Underoath, Converge, Curl Up and Die.
 - Hometown: Boston, Massachusetts, USA.
 - Active since: December 2016.
-- Label: Good Fight Music (also distributed via Deathwish Inc).
+- Label context: Self-Tape was released by Good Fight Music and distributed via Deathwish Inc.; the 2026 EP is credited to MouthBreather.
 
 ## Booking & Contact
 
@@ -54,4 +57,4 @@
 ## Site
 
 - Domain: https://mouthbreather.band
-- Notes: Single-page static site. The hero video is a band reel; all key links above are also visible on-page.
+- Notes: Single-page static site. The current EP and key links above are visible on-page.

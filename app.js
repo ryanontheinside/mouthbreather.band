@@ -1,6 +1,6 @@
 /* ═══════════════════════════════════════════════════════════
    MOUTHBREATHER — app.js
-   tiny vanilla module: boot, timecode, glitch, reel mute
+   tiny vanilla module: boot, timecode, glitch
    ─────────────────────────────────────────────────────────── */
 (() => {
   'use strict';
@@ -44,23 +44,5 @@
       setTimeout(fire, 2200 + Math.random() * 5400);
     };
     setTimeout(fire, 1800);
-  }
-
-  /* ── reel mute toggle ────────────────────────────────── */
-  const reel = $('#reel');
-  const muteBtn = $('#reelMute');
-  if (reel && muteBtn) {
-    const sync = () => {
-      muteBtn.setAttribute('aria-pressed', reel.muted ? 'true' : 'false');
-      muteBtn.setAttribute('aria-label', reel.muted ? 'Unmute reel' : 'Mute reel');
-    };
-    const toggle = () => {
-      reel.muted = !reel.muted;
-      if (!reel.muted && reel.paused) reel.play().catch(() => {});
-      sync();
-    };
-    muteBtn.addEventListener('click', toggle);
-    reel.addEventListener('click', toggle);
-    sync();
   }
 })();
