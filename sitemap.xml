@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://mouthbreather.band/</loc>
     <lastmod>2026-08-07</lastmod>
@@ -11,5 +12,14 @@
       <image:title>MOUTHBREATHER — If I Lose Everything, You All Lose Everything</image:title>
       <image:caption>The new five-track EP by Boston experimental hardcore band MouthBreather</image:caption>
     </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/lZbxzEKQUIo/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>MouthBreather - Terrified (Official Music Video)</video:title>
+      <video:description>The official music video for Terrified by MouthBreather, from If I Lose Everything, You All Lose Everything.</video:description>
+      <video:player_loc allow_embed="yes">https://www.youtube.com/embed/lZbxzEKQUIo</video:player_loc>
+      <video:duration>197</video:duration>
+      <video:publication_date>2026-08-07</video:publication_date>
+      <video:live>no</video:live>
+    </video:video>
   </url>
 </urlset>
