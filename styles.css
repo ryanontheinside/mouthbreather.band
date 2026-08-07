@@ -457,6 +457,58 @@ body{
   50%     { transform:translateY(6px); opacity:1 }
 }
 
+/* ── current video ───────────────────────────────────────── */
+.video-shell{
+  padding:12px;
+  background:#000;
+  border:1px solid #2a2a2a;
+  box-shadow:8px 8px 0 rgba(0,0,0,.8), 0 24px 70px rgba(0,0,0,.55);
+}
+.video-frame{
+  position:relative;
+  width:100%;
+  aspect-ratio:16/9;
+  overflow:hidden;
+  background:#000;
+}
+.video-frame iframe{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  border:0;
+}
+.video-meta{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:20px;
+  padding:16px 8px 6px;
+}
+.video-kicker{
+  display:block;
+  font-family:var(--font-mono);
+  font-size:13px;
+  letter-spacing:.3em;
+  color:var(--blood);
+}
+.video-title{
+  font-family:var(--font-display);
+  font-size:clamp(32px, 6vw, 54px);
+  line-height:1;
+  letter-spacing:.04em;
+  color:var(--bone);
+}
+.video-link{
+  flex:0 0 auto;
+  font-family:var(--font-mono);
+  font-size:14px;
+  letter-spacing:.2em;
+  color:var(--ink-dim);
+  transition:color .15s;
+}
+.video-link:hover{color:var(--blood)}
+
 /* ── grids / cards ───────────────────────────────────────── */
 .grid{ display:grid; gap:12px }
 .grid-listen{ grid-template-columns:1.4fr 1fr }
@@ -661,6 +713,9 @@ body{
   .playlist-proof{font-size:12px;letter-spacing:.12em}
   .cta-row{width:100%}
   .cta{width:100%;padding:14px 18px}
+  .video-shell{padding:6px}
+  .video-meta{align-items:flex-start;flex-direction:column;padding:14px 6px 8px}
+  .video-kicker{font-size:12px;letter-spacing:.2em}
   .grid-follow{ grid-template-columns:1fr }
   .section-head{ grid-template-columns:auto 1fr; gap:10px }
   .section-head .rule{ display:none }
